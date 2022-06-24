@@ -1,0 +1,68 @@
+->ping  --  for checking the connectivity
+->chmod --  change mode
+
+chmod 157 how.txt
+
+1   ---   001
+5   ---   101
+7   ---   111
+
+
+              
+
+                     32 16 8 4 2 1
+                             0 0 1  --1
+                             0 1 0  --2
+			     0 1 1  --3
+                             1 0 0  --4
+                             1 0 1  --5
+                             1 1 0  --6
+                             1 1 1  --7
+
+read  write   execute
+0        0       1      
+1        0       1              
+1        1       1
+
+
+Process Management:
+
+Process:
+	Instance of Program execution
+	Process having:   PID
+			->Child Process
+			->Parent Process
+command: "ps -a"  
+    "0"  --   child process
+    "+ve"  -- parent process
+    "-ve"  --process failed
+
+Process Creation:
+            2 methods
+     1.fork()
+     2.vfork()
+     3.exec()
+
+fork():
+        we create a file,   fork() will creates duplicate process.
+new process is called as child process.
+"2^n"  times print 
+vfork():
+        first child process will execute
+        same memory will allocate to both parent and child
+exec():
+       won't create duplicate process
+
+Process States:
+
+Process:
+  
+      1.Zambie Process   ---  complete the execution by "exit/kill" but still
+there is any entry in the process table.
+      2.Orphan Process  --    process having no parent to child(first parent was killed or executed)
+      3.Init Process    --    super parent to all processes    
+      4.Daemon Process  --    process which is run on background
+
+
+"top"  ---  like history command
+"cat"   -- for display

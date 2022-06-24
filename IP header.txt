@@ -1,0 +1,37 @@
+IPV4 Header:
+
+Host A--------Router------Host B
+
+4500bytes of data----->MTU is 1500
+MTU:Maximum Transmission Unit
+
+"how are you"--  4500bytes
+
+4500/1500=3   fragments
+
+how--1500
+are--1500
+you--1500
+
+
+
+hi i am fine----MTU is 2000bytes
+2000bytes
+
+
+0-->reserve flag
+DF--> Dont Fragment
+MF-->More fragment
+
+
+0,DF,MF all are zero, if there is no fragmentation
+
+All the fragmented packets having same identification
+
+packets fragmentation is done by Fragmentation offset 
+
+how -- 1500bytes -- (0-1499)
+are -- 1500bytes -- (1500-2999)
+you -- 1500bytes -- (3000-4499)
+
+Header checksum is for Error control.

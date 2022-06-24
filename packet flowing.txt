@@ -1,0 +1,33 @@
+1.Host A having IP address of Host D
+  Host A L3 header creates
+  Host A needs to learn MAC address of default gateway
+
+2.Host A sends ARP request for 11.11.11.1
+3.Switch1 recives the request or frame
+  Switch1 learns mac address of Host A(aaaa)
+  Switch1 floods frames to all ports
+4.Host B discards the frame
+5.Router receives the ARP request
+  will learns Host A MAC address
+6.Router gives ARP reply
+7.Switch1 recives that frmae and learns MAC address of router
+8.Host A recives the ARP reply and learns router's ARP mapping
+
+9.Host A creates L2 header and sends packet
+10. Switch1 recives the request and already having MAC address
+11.Switch1 sends to Router and router recives 
+
+12.Router will consult 22.22.22.0/24 will for destination
+   will check for 22.22.22.40 and learns MAC address
+13. Router will sends ARP request to 22.22.22.40
+14. Switch2 recives the frame and learns MAC address for 22.22.22.40
+    Switch2 floods the frame to all ports
+15. Host C will discards the request
+16. Host D will receives the request and learns router ARP mapping
+17. Host D will give ARP reply
+18. Switch2 will receives ARP reply and forward to Router
+19. Router creates L2 header and sends packet
+20. Switch2 recives the frame
+21. Switch2 will forward to Host D
+22. Host D stripes L2 header and L3 header and finally receives Data
+23.Host D gives respond to Host A.

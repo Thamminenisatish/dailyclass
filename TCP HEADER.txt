@@ -1,0 +1,25 @@
+Host A --  Host B
+
+Sequence number will hold the starting byte of data
+
+URG -- URGENT  -- URGENT POINTER USED
+ACK -- ACKNOWLEDGEMENT -- ACKNOWLEDGEMENT NUMBER
+PSH -- PUSH -- REQUEST PURPOSE
+RST -- RESET -- RESETS CONNECTION
+SYN -- SYNCHRONIZATIOM -- CONNECTION ETABLISHMENT PURPOSE
+FIN -- FINISH -- FINISHES
+
+Checksum  -- for error control
+
+we have 400bytes of data
+
+200bytes data sent--- acknowledgement number you need to send data from 201
+
+Window size -- data sending by TCP in bytes 
+
+
+
+Web site "GEEKS FOR GEEKS"
+
+"Hacker Ranker"
+

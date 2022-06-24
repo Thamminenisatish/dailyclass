@@ -1,0 +1,51 @@
+Linux:
+
+	1.IPC mechanism
+		PIPES
+		FIFO
+		MESSAGE QUEUE
+		SEMAPHORE
+		MUTEX
+	2.Process Management
+	3.Thread Management
+
+Linux is a "OS".
+
+->Kernel  -- It is directly contact with Hardware  
+->Shell   -- Interface between user and Kernal
+->Hardware -- CPU, MONITOR,MOUSE,Printer
+
+Basic Commands:
+
+1.mkdir: make directory  --  for creating directory
+2.cd: change directory  --   changing the directory
+  cd .. --  to go back to one directory
+3.pwd: present working directory -- to know the path
+4.ls: list--  displays all files in the directory
+5.touch: -- is used for creating empty file
+6.cp: copy  --- for copying
+7.mv: move -- to move the file
+8.df: to check disc availability
+9.rmdir- remove directory-- removes empty directory
+10.rm -rf: --  used for deleting entire directory with files
+11.history:  shows all history
+12.grep: -- to search files
+13.vi: editor  -- to open in terminal
+14.vim: editor -- to open in terminal
+15.gedit: editor -- like notepad
+16. ":q" --  exit without save
+17. ":wq" -- exit with save
+18. date
+19. cal
+20. man:  help command --
+21.ifconfig -- to see IP address
+22. ":set number"  --  to set the numbering to the program lines
+23. clear  -- clear the screen
+
+
+
+
+satish                      partha
+sat1			    par1
+sat2			    par2
+abc.txt                     mv 

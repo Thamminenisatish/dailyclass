@@ -1,0 +1,32 @@
+General tools:
+
+1.outlook
+2.teams,skype,webex,zoom
+3.ticketing tool
+4.VPN
+	Cisco any connect
+	pulse
+	Global protect
+5.Notepad++,vi,vim
+6.Eclipse
+7.winscp
+8.Beyond compare
+
+Project tools:
+
+1.wireshark
+2.TCP dump
+3.git,github(for account creation and repository creation,updation)
+4.CVS
+5.gdb --debugging tool
+6.Jira
+7.cscope,ctags --  linux command
+8.makefiles  -- "make clean"(for compilation) --  "make exe -j20"(for execution)
+9.Putty
+10.mobaxterm
+11.x2go
+12.multiputty
+
+
+
+
